@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1449.775768048365" y="541.5416574285393">Warrior</node>
+    <node x="966.7667402803959" y="495.8123562462976">Player</node>
+    <node x="1360.0522679871576" y="901.4622542704947">Mage</node>
+    <node x="0.0" y="280.49208552658826">Enemy</node>
+    <node x="353.7304881597622" y="1098.664887789675">World</node>
+    <node x="33.3967770511058" y="837.3828156298232">Main</node>
+    <node x="447.54136248634296" y="0.0">Location</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Player" target="Mage">
+      <point x="-5.6843418860808015E-14" y="-12.26916609237054" />
+      <point x="0.0" y="-12.26916609237054" />
+    </edge>
+    <edge source="Mage" target="Player">
+      <point x="0.0" y="12.269166092370597" />
+      <point x="0.0" y="12.269166092370568" />
+    </edge>
+    <edge source="World" target="Enemy">
+      <point x="5.8006330909971595" y="0.0" />
+      <point x="0.0" y="-9.862886279960122" />
+    </edge>
+    <edge source="Main" target="World">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="World" target="Location">
+      <point x="5.040612120651289" y="0.0" />
+      <point x="5.040612120651289" y="0.0" />
+    </edge>
+    <edge source="World" target="Player">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Location" target="Enemy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Location" target="Player">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Warrior" target="Player">
+      <point x="0.0" y="10.102930477196914" />
+      <point x="0.0" y="10.102930477196878" />
+    </edge>
+    <edge source="Player" target="Warrior">
+      <point x="0.0" y="-10.102930477196907" />
+      <point x="0.0" y="-10.102930477196864" />
+    </edge>
+    <edge source="Location" target="Main">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.5658005029337804" x="813.5" y="586.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
